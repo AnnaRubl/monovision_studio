@@ -30,6 +30,29 @@ img {
 	max-inline-size: 100%;
 }
 
+:root {
+	--light-color: #F5F5F7;
+	--dark-color: #221F20;
+	--container-padding-inline: 13%;
+	--footer-padding-inline: 10%;
+}
+
+/* @property --light-color {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: #F5F5F7;
+}
+
+@property --container-padding-inline {
+	syntax: "<percentage>";
+	inherits: false;
+	initial-value: 13%;
+} */
+
 html {
 	font-family: "Inter", sans-serif;
+}
+
+.element {
+	color: var(--light-color)
 }
