@@ -276,3 +276,48 @@ html {
 			object-fit: cover;
 	}
 }
+
+.footer {
+	background-color: var(--dark-color);
+}
+
+.footer__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 88px;
+	width: 100%;
+	height: 200px;
+}
+
+.footer__social {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 40px;
+}
+
+.footer__social-item {
+	padding-right: 40px;
+	img {
+		padding: 5px;
+		border: 1px solid var(--light-color);
+		width: 32px;
+    	height: 32px;
+	}
+}
+
+.footer__address {
+	font-weight: 400;
+	font-size: 20px;
+	color: var(--light-color);
+}
+
+.footer__phone {
+	font-weight: 400;
+	font-size: 20px;
+	a {
+		text-decoration: none;
+		color: var(--light-color);
+	}
+}
