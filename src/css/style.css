@@ -59,6 +59,7 @@ img {
 
 html {
 	font-family: "Inter", sans-serif;
+	scroll-behavior: smooth;
 	&::selection {
 		color: var(--light-color);
 		background-color: var(--dark-color);
